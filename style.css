@@ -1,0 +1,68 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    background-color: #F1f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+}
+
+#changeColorBtn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    
+}
+
+#changeColorBtn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+p {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.colorControl {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.colorControl:hover {
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+.name {
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.active {
+    color: #1E90FF;
+}
+
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Background Color Flipper</title>
 </head>
 <body>
@@ -11,14 +12,15 @@
         <header>
             <a class="name">Color Flipper</a>
             <div>
-                <a id="simple" class="active">Simple</a>
-                <a id="hex">Hex</a>
+                <a id="simple" class="active colorControl">Simple</a>
+                <a id="hex" class="colorControl">Hex</a>
             </div>
         </header>
         <main>
             <p>Background Color: <span>#F1f5f8</span></p>
-            <button>Change Color</button>
+            <button id="changeColorBtn">Change Color</button>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
